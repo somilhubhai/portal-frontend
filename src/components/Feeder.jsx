@@ -111,7 +111,7 @@ const Feeder = () => {
         />
         <button
           type="submit"
-          className="px-2 py-1 ml-5 border-[1px] hover:bg-transparent hover:border-[1px] text-white hover:text-black border-white rounded mt-4 transition-all bg-green-500"
+          className="px-2 py-1 ml-5 text-white hover:bg-green-600 rounded mt-4 transition-all bg-green-500"
         >
           Submit
         </button>
