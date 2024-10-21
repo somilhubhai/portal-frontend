@@ -26,7 +26,6 @@ const Login = () => {
         "http://localhost:3000/user/login",
         formData
       );
-      console.log(res.data);
 
       if (res.data.user) {
         if (res.data.user.role === "feeder") {
@@ -88,7 +87,7 @@ const Login = () => {
         )}
         <button
           type="submit"
-          className="px-2 py-1 ml-5 border-[1px] hover:bg-transparent hover:border-[1px] text-white hover:text-black border-white rounded mt-4 transition-all bg-green-500"
+          className="px-2 py-1 ml-5 hover:bg-green-600 text-white  border-white rounded mt-4 transition-all bg-green-500"
         >
           Submit
         </button>

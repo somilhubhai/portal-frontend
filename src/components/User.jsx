@@ -34,7 +34,7 @@ const User = () => {
         <select
           name="category"
           id="category"
-          className="mt-5 ml-20 bg-blue-400 px-3 rounded outline-none py-1 text-white"
+          className="mt-5 ml-10 bg-blue-400 px-3 rounded outline-none py-1 text-white"
           value={selectedCategory} // Controlled value
           onChange={handleCategoryChange} // handle category change
         >
